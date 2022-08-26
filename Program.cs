@@ -4,6 +4,49 @@
 
 namespace Test
 {
+
+
+    public class Program
+
+    {
+
+    
+
+        static void Main(string[] args)
+
+        {
+            Console.Write("input = ");
+            string str = Console.ReadLine();
+            string strrev = "";
+            char[] punctuation = new char[] { ' ', ',', '.', ':', '\'', '?', '!', '@', '#','\"' }; 
+
+          
+            char[] inputAsChars = str.ToCharArray();
+
+            
+            string temp = "";
+            foreach (char c in inputAsChars)
+            {
+                if (punctuation.Contains(c))
+                {
+                
+                char[] tx = temp.ToCharArray();
+                Array.Reverse(tx);
+                temp = new string(tx);
+                strrev += temp + c;    
+                temp = "";
+                }
+                else
+                temp += c; 
+            }
+
+            Console.WriteLine("Output= {0}", strrev);
+        }
+
+
+    }
+}
+
 //     public class Program
 //     {
   
@@ -369,46 +412,6 @@ namespace Test
 // }
 
 
-public class Program
-
-    {
-
-    
-
-        static void Main(string[] args)
-
-        {
-            Console.Write("input = ");
-            string str = Console.ReadLine();
-            string strrev = "";
-            char[] punctuation = new char[] { ' ', ',', '.', ':', '\'', '?', '!', '@', '#','\"' }; 
-
-            // convert the input to char[]
-            char[] inputAsChars = str.ToCharArray();
-
-            // step through the char[] looking for punctuation and spaces
-            string temp = "";
-            foreach (char c in inputAsChars)
-            {
-                if (punctuation.Contains(c))
-                {
-                //found a word separator so reverse what we have so far
-                char[] tx = temp.ToCharArray();
-                Array.Reverse(tx);
-                temp = new string(tx);
-                strrev += temp + c;    // make sure we add on the separator
-                temp = "";
-                }
-                else
-                temp += c; //otherwise add the char to the end of our temporary word
-            }
-
-            Console.WriteLine("Output= {0}", strrev);
-        }
-
-
-    }
-}
 
 
 
