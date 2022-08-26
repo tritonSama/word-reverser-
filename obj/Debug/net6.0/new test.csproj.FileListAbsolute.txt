@@ -1,0 +1,15 @@
+C:\Users\OCEAN\Desktop\new test\bin\Debug\net6.0\new test.exe
+C:\Users\OCEAN\Desktop\new test\bin\Debug\net6.0\new test.deps.json
+C:\Users\OCEAN\Desktop\new test\bin\Debug\net6.0\new test.runtimeconfig.json
+C:\Users\OCEAN\Desktop\new test\bin\Debug\net6.0\new test.dll
+C:\Users\OCEAN\Desktop\new test\bin\Debug\net6.0\new test.pdb
+C:\Users\OCEAN\Desktop\new test\obj\Debug\net6.0\new test.csproj.AssemblyReference.cache
+C:\Users\OCEAN\Desktop\new test\obj\Debug\net6.0\new test.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\OCEAN\Desktop\new test\obj\Debug\net6.0\new test.AssemblyInfoInputs.cache
+C:\Users\OCEAN\Desktop\new test\obj\Debug\net6.0\new test.AssemblyInfo.cs
+C:\Users\OCEAN\Desktop\new test\obj\Debug\net6.0\new test.csproj.CoreCompileInputs.cache
+C:\Users\OCEAN\Desktop\new test\obj\Debug\net6.0\new test.dll
+C:\Users\OCEAN\Desktop\new test\obj\Debug\net6.0\refint\new test.dll
+C:\Users\OCEAN\Desktop\new test\obj\Debug\net6.0\new test.pdb
+C:\Users\OCEAN\Desktop\new test\obj\Debug\net6.0\new test.genruntimeconfig.cache
+C:\Users\OCEAN\Desktop\new test\obj\Debug\net6.0\ref\new test.dll
